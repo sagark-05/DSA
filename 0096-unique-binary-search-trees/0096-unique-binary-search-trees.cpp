@@ -1,19 +1,12 @@
 class Solution {
 public:
     int numTrees(int n) {
-        vector<int> dp(n+1 , 0);
-        dp[0] = 1;
-        dp[1] = 1;
-
-        for(int node = 2 ; node <= n ; node++){
-            for(int root = 1 ; root <= node ; root++){
-                int left = root - 1;
-                int right = node - root;
-
-                dp[node] += dp[left] * dp[right];
-            }
+        //by using catalen formula
+        long long ans = 1;
+        for(int i= 1; i<=n;i++){
+            ans = ans * (2LL * (2 * i - 1)) / (i + 1) ;
         }
 
-        return dp[n];
+        return ans;
     }
 };

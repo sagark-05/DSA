@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/sagark-05/DSA/tree/master/0001-two-sum) |
 | [0242-valid-anagram](https://github.com/sagark-05/DSA/tree/master/0242-valid-anagram) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/sagark-05/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 ## String
@@ -111,4 +112,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/sagark-05/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/sagark-05/DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/sagark-05/DSA/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
